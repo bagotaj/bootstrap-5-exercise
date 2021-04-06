@@ -11,9 +11,14 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://kit.fontawesome.com/e3a1ea49cc.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Előfizetések</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Learning360</a>
@@ -80,19 +85,202 @@
       </div>
     </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <header>
+      <section>
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white mt-3">
+              <li class="breadcrumb-item">
+                <a href="./index.html">Főoldal</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Előfizetések
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid bg-light rounded-3">
+          <div class="container py-5">
+            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <p class="col-md-12 fs-4">
+              Using a series of utilities, you can create this jumbotron, just
+              like the one in previous versions of Bootstrap. Check out the
+              examples below for how you can remix and restyle it to your
+              liking.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="alert alert-success text-center mb-0" role="alert">
+          10% akció az összes előfizetési konstrukcióból!
+        </div>
+      </section>
+    </header>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="mb-4">PRICING</h1>
+            <div class="col-md-4 p-1 p-md-3">
+              <div class="card shadow-sm">
+                <div class="card-header h2">Free</div>
+                <div class="card-body">
+                  <h5 class="card-title h1 mt-3">
+                    $0 <span class="text-secondary h3">/ mo</span>
+                  </h5>
+                  <p class="card-text mb-5">
+                    10 user included<br />
+                    2 GB of storage<br />
+                    Email support<br />
+                    Help center access
+                  </p>
+                  <a href="#" class="d-grid btn btn-outline-primary"
+                    >Sign up for free</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-1 p-md-3">
+              <div class="card shadow-lg">
+                <div class="card-header h2">Pro</div>
+                <div class="card-body">
+                  <h5 class="card-title h1 mt-3">
+                    $15 <span class="text-secondary h3">/ mo</span>
+                  </h5>
+                  <p class="card-text mb-5">
+                    20 user included<br />
+                    10 GB of storage<br />
+                    Priority email support<br />
+                    Help center access
+                  </p>
+                  <a href="#" class="btn btn-primary d-grid">Get started</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-1 p-md-3">
+              <div class="card shadow-sm">
+                <div class="card-header h2">Enterprise</div>
+                <div class="card-body mt-3">
+                  <h5 class="card-title h1">
+                    $29 <span class="text-secondary h3">/ mo</span>
+                  </h5>
+                  <p class="card-text mb-5">
+                    30 user included<br />
+                    15 GB of storage<br />
+                    Phone and email support<br />
+                    Help center access
+                  </p>
+                  <a href="#" class="btn btn-primary d-grid">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 text-white text-center text-md-start bg-dark mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="mb-4">Navigáció</h5>
+            <nav class="nav flex-column">
+              <a class="text-white mb-3 nav-link p-0" href="/index.html"
+                >Főoldal</a
+              >
+              <a class="text-white mb-3 nav-link p-0" href="/blog.html">Blog</a>
+              <a
+                class="text-white mb-3 nav-link p-0"
+                href="/tanfolyamlista.html"
+                >Tanfolyamlista</a
+              >
+              <a class="text-white mb-3 nav-link p-0" href="/elofizetesek.html"
+                >Előfizetések</a
+              >
+              <a class="text-white mb-3 nav-link p-0" href="/oktatok.html"
+                >Oktatók</a
+              >
+              <a class="text-white mb-3 nav-link p-0" href="/gyik.html"
+                >Kérdések és válaszok</a
+              >
+              <a class="text-white nav-link p-0" href="/kapcsolat.html"
+                >Kapcsolat</a
+              >
+            </nav>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="mb-4">Legfrissebb bejegyzések</h5>
+            <nav class="nav flex-column">
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+              <a class="text-white mb-3 nav-link p-0" href="#">Lorem ipsum</a>
+            </nav>
+          </div>
+          <div class="col-md-4">
+            <address>
+              Learning360 Kft. <br />
+              1234 Oktatás utca 56.
+            </address>
+            <nav class="nav justify-content-center justify-content-md-start">
+              <a
+                href="#"
+                class="text-white me-2"
+                data-bs-toggle="tooltip1"
+                data-bs-placement="top"
+                title="Facebook"
+                id="facebookTooltip"
+              >
+                <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <span class="sr-only">Link a cég Facebook oldalára</span>
+              </a>
+              <a
+                href="#"
+                class="text-white me-2"
+                data-bs-toggle="tooltip2"
+                data-bs-placement="top"
+                title="Twitter"
+                id="twitterTooltip"
+              >
+                <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
+                <span class="sr-only">Link a cég Twitter oldalára</span>
+              </a>
+              <a
+                href="#"
+                class="text-white"
+                data-bs-toggle="tooltip3"
+                data-bs-placement="top"
+                title="Linkedin"
+                id="linkedinTooltip"
+              >
+                <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+                <span class="sr-only">Link a cég Linkedin oldalára</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    -->
+    <script src="./js/main.js"></script>
+    <script>
+      const myCarousel = document.querySelector('#myCarousel');
+      const carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 3000,
+        wrap: false,
+      });
+    </script>
   </body>
 </html>

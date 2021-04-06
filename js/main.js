@@ -1,3 +1,10 @@
+const tooltipTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="tooltip"]')
+);
+const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl);
+});
+
 const linkedinEl = document.getElementById('linkedinTooltip');
 const tooltip1 = new bootstrap.Tooltip(linkedinEl);
 
